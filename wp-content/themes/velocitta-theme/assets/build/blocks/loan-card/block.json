@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "velocitta-theme/loan-card",
+  "version": "0.1.0",
+  "title": "Loan Card",
+  "category": "velocitta-theme",
+  "icon": "lock",
+  "description": "Sample Dynamic block.",
+  "keywords": [
+    "sample",
+    "Dynamic"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "velocitta-theme",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingalignment": {
+      "type": "string",
+      "default": "unset"
+    },
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "dataArray": {
+      "type": "array",
+      "default": []
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "imagebackgroundColor": {
+      "type": "string",
+      "default": ""
+    },
+    "cardheadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "cardcontentColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttontextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showloanImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "showloanTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showloanmainHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "showloanDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "showloanButton": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

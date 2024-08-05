@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "velocitta-theme/solutions-card",
+  "version": "0.1.0",
+  "title": "Solutions Card",
+  "category": "velocitta-theme",
+  "icon": "lock",
+  "description": "Sample Dynamic block.",
+  "keywords": ["sample", "Dynamic"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "velocitta-theme",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "textalignment": {
+      "type": "string",
+      "default": "unset"
+    },
+    "dataArray": {
+      "type": "array",
+      "default": []
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "imagebackgroundColor": {
+      "type": "string",
+      "default": ""
+    },
+    "cardheadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "cardcontentColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttontextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showsolutionImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "showsolutionTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showmainHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "showsolutionDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "showsolutionButton": {
+      "type": "boolean",
+      "default":  true
+    }
+   
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [ "file:./view.js" ],
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

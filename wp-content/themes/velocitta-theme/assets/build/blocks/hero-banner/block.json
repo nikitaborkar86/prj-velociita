@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "velocitta-theme/hero-banner",
+  "version": "0.1.0",
+  "title": "Hero Banner",
+  "category": "velocitta-theme",
+  "icon": "cover-image",
+  "description": "Hero Dynamic block.",
+  "keywords": [
+    "Hero",
+    "Banner"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "velocitta-theme",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": "black"
+    },
+    "backgroundimageID": {
+      "type": "number",
+      "default": ""
+    },
+    "backgroundimageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundimageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundimageWidth": {
+      "type": "number",
+      "default": ""
+    },
+    "backgroundimageHeight": {
+      "type": "number",
+      "default": ""
+    },
+    "logoimageID": {
+      "type": "number",
+      "default": ""
+    },
+    "logoimageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "logoimageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "logoimageWidth": {
+      "type": "number",
+      "default": ""
+    },
+    "logoimageHeight": {
+      "type": "number",
+      "default": ""
+    },
+    "headingVisibility": {
+      "type": "boolean",
+      "default": true
+    },
+    "alignment": {
+      "type": "string",
+      "default": "unset"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,84 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/benfits-card/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.benefits_card_body {
+  margin-top: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.benefits_card_body .heading {
+  padding-top: 40px;
+}
+.benefits_card_body .heading h2 {
+  font-size: 35px !important;
+  font-weight: 400 !important;
+  line-height: 1.5;
+  text-align: center;
+}
+.benefits_card_body .benfits-card-main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  row-gap: 15px;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section {
+  width: 30%;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container {
+  display: flex;
+  width: 100%;
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  align-items: center;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-image-section {
+  width: 15%;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-image-section img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-card-right-section {
+  width: 80%;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-card-right-section h3 {
+  font-size: 20px;
+}
+.benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-card-right-section p {
+  font-size: 13px;
+  font-weight: 500;
+}
+@media screen and (max-width: 950px) {
+  .benefits_card_body .benfits-card-main .benfits-card-inner {
+    -moz-column-gap: 4%;
+         column-gap: 4%;
+  }
+  .benefits_card_body .benfits-card-main .benfits-card-inner {
+    -moz-column-gap: 4%;
+         column-gap: 4%;
+  }
+  .benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section {
+    width: 48%;
+  }
+  .benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-card-right-section h3 {
+    font-size: 20px;
+  }
+  .benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section .benifits-card-container .benfits-card-right-section p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 654px) {
+  .benefits_card_body .benfits-card-main .benfits-card-inner .benifits-card-section {
+    width: 96%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

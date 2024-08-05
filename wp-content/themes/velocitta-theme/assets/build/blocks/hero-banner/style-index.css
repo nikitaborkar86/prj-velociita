@@ -1,0 +1,27 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/hero-banner/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.hero-banner-main {
+  width: 100%;
+  position: relative;
+}
+.hero-banner-main .logo-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.hero-banner-main .logo-image img {
+  width: 150px;
+  height: 90px;
+  padding-left: 10px;
+}
+.hero-banner-main .hero-banner-background {
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

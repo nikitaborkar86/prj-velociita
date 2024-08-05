@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "velocitta-theme/benfits-card",
+  "version": "0.1.0",
+  "title": "benfits Card",
+  "category": "velocitta-theme",
+  "icon": "lock",
+  "description": "Benfits  Card  block.",
+  "keywords": [
+    "Benfits",
+    "Card"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "velocitta-theme",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "cardtextalignment": {
+      "type": "string",
+      "default": "unset"
+    },
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "dataArray": {
+      "type": "array",
+      "default": []
+    },
+    "benfitsbackgroundColor": {
+      "type": "string",
+      "default": ""
+    },
+    "topheadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "benfitsheadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "benfitscontentColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "showmainHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

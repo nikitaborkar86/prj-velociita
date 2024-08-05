@@ -1,0 +1,107 @@
+@use '../../scss/abstracts';
+
+.loan-card-main {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .loan-card-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        // align-items: center;
+       justify-content: space-between;  
+        row-gap: 35px;
+        margin-top: 50px;
+
+        .loan-card-inner {
+            width: 48%;
+            display: flex;
+            // flex-wrap: wrap; 
+            align-items: center;
+            justify-content: space-between;
+            border: 2px solid #ededed;
+            border-radius: 10px;
+            @media screen and (max-width: 730px) {
+                width: 100%;
+            }
+
+            .left-side-section {
+                width: 45%;
+                padding: 25px;
+                @media screen and (max-width: 456px) {
+                    padding: 20px;
+                }
+
+                h3 {
+                    font-size: 35px;
+                    font-weight: 500;
+                    line-height: 1.2;
+
+                    @media screen and (max-width: 1024px) {
+                        font-size: 30px;
+                    }
+                    
+                    @media screen and (max-width: 944px) {
+                        font-size: 27px;
+                    }
+                    @media screen and (max-width: 768px) {
+                        font-size: 23px;
+                    }
+                    @media screen and (max-width: 375px) {
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                    
+                }
+                
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+
+                    @media screen and (max-width: 768px) {
+                        font-size: 13px;
+                    }
+                    @media screen and (max-width: 375px) {
+                        font-size: 11px;
+                        font-weight: 600;
+                    
+                    }
+
+                }
+
+                a {
+                    font-size: 12px;
+
+                    padding: 5px 20px;
+                    border: 2px solid#ededed;
+                    text-decoration: none;
+                    transition: border-color 0.3s;
+                    cursor: pointer;
+
+                    &:hover {
+
+                        border: 2px solid #2e2b2b;
+                    }
+                }
+
+            }
+
+            .loan-image-section {
+                width: 50%;
+                height: 100%;
+
+                img {
+                    width: 100%;
+                    max-width: 500px;
+                    min-height: 200px;
+                    height: 100%;
+                    clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%, 0 70%);
+                    border-radius: 0 10px 10px 0;
+                }
+            }
+        }
+    }
+
+}

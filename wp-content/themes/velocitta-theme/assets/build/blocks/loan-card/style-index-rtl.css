@@ -1,0 +1,100 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/loan-card/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.loan-card-main {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.loan-card-main .loan-card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 35px;
+  margin-top: 50px;
+}
+.loan-card-main .loan-card-container .loan-card-inner {
+  width: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #ededed;
+  border-radius: 10px;
+}
+.loan-card-main .loan-card-container .loan-card-inner .left-side-section {
+  width: 45%;
+  padding: 25px;
+}
+.loan-card-main .loan-card-container .loan-card-inner .left-side-section h3 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.loan-card-main .loan-card-container .loan-card-inner .left-side-section p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.loan-card-main .loan-card-container .loan-card-inner .left-side-section a {
+  font-size: 12px;
+  padding: 5px 20px;
+  border: 2px solid #ededed;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  transition: border-color 0.3s;
+  cursor: pointer;
+}
+.loan-card-main .loan-card-container .loan-card-inner .left-side-section a:hover {
+  border: 2px solid #2e2b2b;
+}
+.loan-card-main .loan-card-container .loan-card-inner .loan-image-section {
+  width: 50%;
+  height: 100%;
+}
+.loan-card-main .loan-card-container .loan-card-inner .loan-image-section img {
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  height: 100%;
+  clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%, 0 70%);
+  border-radius: 10px 0 0 10px;
+}
+@media screen and (max-width: 1024px) {
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 944px) {
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section h3 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section h3 {
+    font-size: 23px;
+  }
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section p {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .loan-card-main .loan-card-container .loan-card-inner {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 456px) {
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .loan-card-main .loan-card-container .loan-card-inner .left-side-section p {
+    font-size: 11px;
+    font-weight: 600;
+  }
+}

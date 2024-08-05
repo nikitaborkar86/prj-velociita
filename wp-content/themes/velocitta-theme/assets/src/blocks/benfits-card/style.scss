@@ -1,0 +1,85 @@
+@use '../../scss/abstracts';
+
+.benefits_card_body {
+    margin-top: 100px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); 
+    padding-top: 20px;
+    padding-bottom: 50px;
+    .heading{
+        padding-top: 40px;
+        h2{
+            font-size: 35px !important;
+        font-weight: 400 !important;
+        line-height: 1.5;
+        text-align: center;
+      
+        
+        }
+    }
+    .benfits-card-main {
+       padding-top: 25px;
+       padding-bottom: 25px;
+        .benfits-card-inner {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            column-gap: 5%;
+            row-gap: 15px;
+            @media screen and (max-width: 950px) {
+                column-gap: 4%;
+            }
+            @media screen and (max-width: 950px) {
+                column-gap: 4%;
+            }
+
+            .benifits-card-section {
+                width: 30%;
+
+                 @media screen and (max-width: 950px) {
+                width: 48%;
+ 
+            }
+            @media screen and (max-width:654px) {
+                width: 96%;
+               
+            }
+
+                .benifits-card-container {
+                    display: flex;
+                    width: 100%;
+                    column-gap: 5%;
+                    align-items: center;
+
+                    .benfits-image-section {
+                        width: 15%;
+                        img{
+                            border-radius: 50%;
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+
+                    .benfits-card-right-section {
+                        width: 80%;
+                        h3{
+                            font-size: 20px;
+                            
+                            @media screen and (max-width: 950px) {
+                                font-size: 20px;
+                            }
+                        }
+                        p{
+                            font-size: 13px;
+                            font-weight: 500;
+
+                            @media screen and (max-width: 950px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

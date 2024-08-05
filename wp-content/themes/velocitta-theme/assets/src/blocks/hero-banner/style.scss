@@ -1,0 +1,26 @@
+@use '../../scss/abstracts';
+
+.hero-banner-main{
+    width: 100%;
+    position: relative;
+    .logo-image{
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        img{
+            width: 150px;
+            height: 90px;
+            padding-left: 10px;
+        }
+    }
+    .hero-banner-background {
+        min-height: 600px;
+    
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+        
+    }
+}

@@ -1,0 +1,5 @@
+@use '../../scss/abstracts';
+
+.wp-block-velocitta-theme-sample-dynamic {
+    color: abstracts.$link-theme-color;
+}
